@@ -19,7 +19,7 @@ NEWSPIDER_MODULE = 'nobel_winners.spiders'
 #USER_AGENT = 'nobel_winners (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -88,3 +88,7 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+BOT_NAME = 'nobel_winners'
+SPIDER_MODULES = ['nobel_winners.spiders']
+NEWSPIDER_MODULE = 'nobel_winners.spiders'
+HTTPCACHE_ENABLED = True

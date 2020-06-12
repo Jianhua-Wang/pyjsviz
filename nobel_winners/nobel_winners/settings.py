@@ -14,7 +14,8 @@ BOT_NAME = 'nobel_winners'
 SPIDER_MODULES = ['nobel_winners.spiders']
 NEWSPIDER_MODULE = 'nobel_winners.spiders'
 
-
+# HTTPCACHE_ENABLED = True
+IMAGES_STORE = 'images'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'nobel_winners (+http://www.yourdomain.com)'
 
@@ -88,7 +89,3 @@ ROBOTSTXT_OBEY = False
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-BOT_NAME = 'nobel_winners'
-SPIDER_MODULES = ['nobel_winners.spiders']
-NEWSPIDER_MODULE = 'nobel_winners.spiders'
-HTTPCACHE_ENABLED = True

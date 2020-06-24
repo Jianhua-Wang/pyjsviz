@@ -10,7 +10,7 @@
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'nobel_winners'
- 
+
 SPIDER_MODULES = ['nobel_winners.spiders']
 NEWSPIDER_MODULE = 'nobel_winners.spiders'
 
